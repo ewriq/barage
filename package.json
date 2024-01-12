@@ -14,5 +14,18 @@
   "author": "ewriq",
   "files": [
     "lib/"
+  ],
+  "keywords": [
+    "tcp",
+    "server",
+    "client",
+    "build network app",
+    "network app",
+    "tcp server",
+    "socket server",
+    "socket client",
+    "tcp client",
+    "json based",
+    "open source"
   ]
 }
