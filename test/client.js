@@ -1,7 +1,18 @@
-const connect = require("../lib/client/main");
-const client = connect(3000, "localhost");
-client.write("3", { hello: "world" });
+const { connect } = require("../lib/main");
 
-client.on("3", (data) => {
-  console.log(data);
+const client = connect(3000, "localhost");
+
+client.write("1", {
+  data: {
+    hello: "world",
+  },
+});
+
+client.on("1", (data) => {
+  console.log(data)
+  client.write("1", {
+    data: {
+      hello: "world",
+    },
+  });
 });
