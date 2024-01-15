@@ -1,6 +1,6 @@
 {
   "name": "barage",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Full stack tcp controller (server/client) mirrorable websocket refers to the appreciated syntax in creating tcp server",
   "main": "./lib/main.js",
   "license": "MIT",
